@@ -221,6 +221,7 @@ border: 1px solid rgba(255, 255, 255, 0.23);
     background: -webkit-linear-gradient(to left, #cc66ff 0%, #ccffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    overflow-x: hidden;
 
 }
 .hero-text-content{
