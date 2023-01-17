@@ -17,7 +17,9 @@
   color: #444;
 }
 
-
+body{
+  overflow-x: hidden;
+}
 main {
   height: 100vh;
 }
