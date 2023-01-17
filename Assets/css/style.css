@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'poppins', sans-serif;
   color: #444;
 }
 
@@ -221,12 +221,9 @@ border: 1px solid rgba(255, 255, 255, 0.23);
     background: -webkit-linear-gradient(to left, #cc66ff 0%, #ccffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    overflow-x: hidden;
 
 }
-.hero-text-content{
-  overflow-x: hidden;
-}
+
 .hero .txt-color{
   color: black;
   font-weight: 700;
