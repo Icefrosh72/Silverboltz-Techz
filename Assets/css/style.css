@@ -85,14 +85,14 @@ span.gra, .gra{
   -webkit-text-fill-color: transparent;
 }
 
-.btn-click{
+/* .btn-click{
   background: linear-gradient(to bottom left, #33cccc 0%, #9999ff 100%);
   border-radius: 20px 5px;
   color: #fff;
   font-family: 'serif', sans-serif;
   font-size: 15px;
   font-weight: 600;
-}
+} */
 
 /* end of colors text */
 
@@ -240,20 +240,41 @@ border: 1px solid rgba(255, 255, 255, 0.23);
   font-weight: 500;
   font-size: 14px;
 }
-.hero .btn-click{
-  /* background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf); */
-  background:linear-gradient(to bottom left, #33cccc 0%, #9999ff 100%);
-  padding: 10px 20px;
-  border-radius: 15px;
+.btn-click{
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
   color: #fff;
-  font-family: 'serif', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#1c1c1c,#6220fb);
+  border: 0 solid;
+  overflow: hidden;
+  display: inline-flex;
 }
-.btn:hover{
-  outline: none;
-  border: none;
+
+.btn-click:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #fff;
 }
+.btn-click a{
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .single-feature{
   padding: 20px 20px 20px 90px;
   margin-top: 5rem;
