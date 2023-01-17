@@ -4,9 +4,1007 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main css -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/libs/all.min.css">
+    <!-- Google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google fonts cdn -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap">
+    <!-- -------------------------Bootstrap------------------- -->
+    <link rel="stylesheet" href="Assets/libs/bootstrap.min.css">
+    <!-- ------------------Animate css---------------------------- -->
+    <link rel="stylesheet" href="Assets/libs/animate.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- -----------------Owl carousel css---------------------- -->
+    <link rel="stylesheet" href="Assets/libs/owl.carousel.min.css">
+    <link rel="stylesheet" href="Assets/libs/owl.theme.default.min.css">
+    <!-- Site icon -->
+    <link rel="shortcut icon" href="Assets/img/icons/ft-logo.png" type="image/x-icon">
     <title>Silverboltz Techz</title>
 </head>
 <body>
-    
+        <header>
+            <nav class="navbar navbar-expand-md  navbar-light  d-flex fixed-top" id="top">
+                <a href="#" class="navbar-brand pl-3 h3 font-weight-bold">
+                    <img src="./Assets/images/logo/logo3.png" class="logo" alt="">
+                </a>
+
+                <button class="navbar-toggler mobile-menu-btn" onclick="sidebar()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                </button>
+
+                <div class="icon-c" onclick="sidebarclose()"><i id="icon-x" class="fas fa-x icon"></i></div>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active h5 font-weight-normal px-3">
+                        <a href="#" class="nav-link">Home<span class="sr-only"></span></a>
+                    </li>
+                    
+                    <li class="nav-item h5 font-weight-normal px-3">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    
+                    <li class="nav-item h5 font-weight-normal px-3">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    
+                    <li class="nav-item h5 font-weight-normal px-3">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+                <div class="opt-btn d-flex align-items-center">
+                    <div class="search-opt">
+                        <i class="fab fa-searchengin"></i>
+                        <i class="fas fa-x"></i>
+                        <!-- search content-form -->
+                        <div class="search-overlay search-popup">
+                            <div class="search-box">
+                                <form class="search-form">
+                                    <input class="search-input" placeholder="Search..." type="text">
+
+                                    <button class="search-button" type="submit">
+                                        <i class="ri-search-line"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <main>
+            <section class="hero wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="hero-text-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                <p class="par-heading">WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY</p>
+                                <h1 class="txt-color">WE MAKE THE BEST I.T SOLUTIONS</h1>
+                                <p class="par-txt">We are leading technology solutions providing company all over the world doing over 40 years.
+                                     Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor.
+                                </p>
+                                <div class="btn btn-click">Get Started</div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-12">
+                            <div class="hero-text-content wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <div class="img-content">
+                                    <img src="Assets/images/meet-up-pmy2i0m19xn2wlilxih1g2nv63zem76zhxdtw2tr0g.png" alt="">
+                                    <!-- <div class="banner-circle">
+                                        <img src="assets/images/banner-circle.png" alt="">
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features pb-75">
+                <div class="container">
+                    <div class="features-inner-box">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-feature wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                    <div class="feature-img">
+                                        <img src="Assets/images/design1.png" alt="">
+                                    </div>
+                                    <div class="feature-text">
+                                        <h3 class="ani-txt">Graphic Designer</h3>
+                                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
+                                    </div>
+                                    <div class="feature-hover-content"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-feature wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                                    <div class="feature-img">
+                                        <img src="Assets/images/code1.png" alt="">
+                                    </div>
+                                    <div class="feature-text">
+                                        <h3 class="ani-txt">Development</h3>
+                                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> 
+                                    </div>
+                                    <div class="feature-hover-content">
+                                        <h3>Development</h3>
+                                        <a href="#" class="feauture-btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-feature wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                                    <div class="feature-img">
+                                        <img src="Assets/images/data1.png" alt="">
+                                    </div>
+                                    <div class="feature-text">
+                                        <h3 class="ani-txt">Data Analysis</h3>
+                                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+                                    </div>
+                                    <div class="feature-hover-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="about-sect">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="about-content">
+                                <div class="img-content">
+                                    <img src="Assets/images/about-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-12">
+                            <div class="about-content">
+                                <div class="about-txt">
+                                    <div class="about-bg-text">ABOUT</div>
+                                    <h6>Who We Are</h6>
+                                    <h2>Your <span class="gra">Trusted Partner</span>  For All I.T Solutions</h2>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa itaque est quas blanditiis fuga eligendi totam, non architecto inventore dolorum, nihil ea harum, nesciunt soluta iste animi impedit sequi aliquid?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-inner-box">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-inner-card">
+                                    <h4>Our Vision</h4>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, molestias dolorem numquam ab nam provident quaerat porro tempora perspiciatis, sed sit eos cum animi voluptatum, neque odio delectus ipsa! Reiciendis!
+                                    </p>
+                                    <div class="btn about-btn-click">Get Started</div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-inner-card">
+                                    <h4>Our Mission</h4>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, molestias dolorem numquam ab nam provident quaerat porro tempora perspiciatis, sed sit eos cum animi voluptatum, neque odio delectus ipsa! Reiciendis!
+                                    </p>
+                                    <div class="btn about-btn-click">Get Started</div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-inner-card">
+                                    <div class="card-img">
+                                        <img src="Assets/images/about-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service-mode-activated pad-100">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="service-content">
+                                <div class="services-bg-txt">Services</div>
+                                <span class="txt-gra">Services</span>
+                                <h1>WE PROVIDE THE BEST QUALITY</h1>
+                                <span class="gra">Services</span>
+                                <p>We are technology solutions providing company all over the world doing over 5 years.</p>
+                                <div class="btn service-btn btn-click">
+                                    EXPLORE ALL SERVICES
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-------------------------------------- Owl Carousel------------------------------------------- -->
+                        <div class="col-lg-8 col-md-12">
+
+                            <div class="services-slides owl-carousel owl-theme owl-loaded owl-drag">
+
+                                <div class="owl-stage-outer">
+
+                                    <div class="owl-stage" style="transition: all 0s ease 0s; width: 6407px; transform: translate3d(-1281px, 0px, 0px);">
+                                        <div class="owl-item cloned" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+                                                <div class="services-image">
+                                                    <a href="#">
+                                                        <img src="Assets/images/data1.png" alt="image"></a>
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="owl-item cloned" style="width: 295.333px; margin-right: 25px;">
+                                            
+                                            <div class="services-item">
+                                                
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-2.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="owl-item cloned active" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-3.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="owl-item cloned active" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-4.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="owl-item cloned active" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-2.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="owl-item" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-2.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="owl-item cloned" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/services-4.jpg">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="owl-item cloned" style="width: 295.333px; margin-right: 25px;">
+
+                                            <div class="services-item">
+
+                                                <div class="service-img">
+                                                    <img src="Assets/images/code.png">
+                                                </div>
+
+                                                <div class="services-content">
+                                                    <h3>
+                                                        <a href="#">Web Development</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                                    <a href="#" class="services-btn gra">View More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="owl-nav disabled">
+                                    <!-- button movement -->
+                                    <button type="button" role="presentation" class="owl-prev">
+                                        <span aria-label="Previous">‹</span>
+                                    </button>
+                                    <!-- button end -->
+                                    
+                                    <!-- button movement -->
+                                    <button type="button" role="presentation" class="owl-next">
+                                        <span aria-label="Next">›</span>
+                                    </button>
+                                    <!-- button end -->
+                                </div>
+
+                                <div class="owl-dots">
+                                    <!-- button movement -->
+                                    <button role="button" class="owl-dot active">
+                                        <span></span>
+                                    </button>
+                                    <!-- button end -->
+
+                                    <!-- button start -->
+                                    <button role="button" class="owl-dot">
+                                        <span></span>
+                                    </button>
+                                    <!-- button end -->
+
+                                    <!-- button start -->
+                                    <button role="button" class="owl-dot">
+                                        <span></span>
+                                    </button>
+                                    <!-- button end -->
+
+                                    <!-- button start -->
+                                    <button role="button" class="owl-dot">
+                                        <span></span>
+                                    </button>
+                                    <!-- button end -->
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- ------------------------------------------end of owl Carousel----------------------------------------------- -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-activated">
+                <div class="container-fluid">
+                    <div class="project-mode">
+                       <div class="project-title">
+                        <h3 class="class="wow zoomIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">Projects</h3> 
+                        <h2 class="class="wow zoomIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                            Check In Our Unique
+                            <span class="gra">Incredible Client's</span>
+                            Projects You Ever Experienced
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas quidem similique inventore eos voluptatibus iure dolorum eius id molestias at illum ducimus cumque ipsum laboriosam, necessitatibus adipisci sequi. Fugiat?
+                        </p>
+                       </div>
+                    </div>
+                    <div class="project-slide owl-carousel owl owl-carousel owl-theme owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+
+                            <div class="owl-stage" style="transition: all 0.5s ease 0s; width: 9442px; transform: translate3d(-2447px, 0px, 0px);">
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div><div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 324.667px; margin-right: 25px;">
+
+                                    <div class="services-item">
+                                        <div class="services-image">
+                                            <a href="#">
+                                                <img src="Assets/images/projects-1.jpg" alt="image"></a>
+                                        </div>
+
+                                        <div class="services-content">
+                                            <h3>
+                                                <a href="#">Web Development</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…</p>
+                                            <a href="#" class="services-btn gra">View More</a>
+                                        </div>
+                                    </div>
+                                </div> <!--end of owl carousel-->
+
+                            </div>
+                        </div>
+
+
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                    <!-- end of projects slide -->
+                </div>
+                
+                <!-- flying shapes -->
+                <div class="flying-shapes1">
+                    <img src="Assets/images/flying-shape1.png" alt="" class="circle-shapes">
+                </div>
+            </section>
+            <section class="process-space pt-100 pb-75">
+                <div class="container">
+                    <div class="section-title">
+                        <div class="section-bg-text">Space</div>
+                        <span>Work Space</span>
+                        <h3>Four <span class="txt-gra1">Steps Are been </span>Followed <span class="txt-gra">Carefully</span></h3>
+                        <p>Lorem 
+                            <span class="txt-rotate" data-period="2000" data-rotate='[ "ipsum dolor sit amet consectetur adipisicing elit.", "Nesciunt reprehenderit eos ducimus distinctio harum soluta in facilis perspiciatis dolorem maiores."," Ea voluptas expedita repellendus itaque voluptatibus, eligendi modi omnis possimus."]'></span>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-space-card">
+                                <div class="space-image"></div>
+                                <div class="space-text">
+                                    <a href="#">Planning</a>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-space-card">
+                                <div class="space-image"></div>
+                                <div class="space-text">
+                                    <a href="#">Testing</a>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-space-card">
+                                <div class="space-image"></div>
+                                <div class="space-text">
+                                    <a href="#">Idea Commitment</a>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-space-card">
+                                <div class="space-image"></div>
+                                <div class="space-text">
+                                    <a href="#">Processing</a>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonial">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="testimonal-detail">
+                                <div class="section-bg-text">Clients</div>
+                                <span class="txt-gra1">Testimonial</span>
+                                <h3>Fantanstic <span class="gra">Words From</span> Our clients</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum facere, quaerat iste saepe consequatur obcaecati, exercitationem deleniti</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum facere, quaerat iste saepe consequatur obcaecati, exercitationem deleniti</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="testimonial-clients">
+                                <div class="clients-cards">
+                                    <img src="Assets/images/testimonials-1.jpg" alt="" class="round-img">
+                                </div>
+                                <h4>Mrs John Doe</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda! Illum repudiandae,</p>
+                            </div>
+                            
+                            <div class="testimonial-clients">
+                                <div class="clients-cards">
+                                    <img src="Assets/images/testimonials-2.jpg" alt="" class="round-img">
+                                </div>
+                                <h4>Mr John Doe</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda! Illum repudiandae,</p>
+                            </div>
+                            
+                            <div class="testimonial-clients">
+                                <div class="clients-cards">
+                                    <img src="Assets/images/testimonials-3.jpg" alt="" class="round-img">
+                                </div>
+                                <h4>Mrs John Doe</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda! Illum repudiandae,</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="contact-img pt-100 pb-75">
+                                <img src="Assets/images/connect.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <div class="contact-text">
+                                <div class="section-bg-text">Let's Talk</div>
+                                <span>Connect</span>
+                                <h2>Lets Talk Business In Case you Have Issues</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio ullam quam blanditiis vel ad nostrum tenetur magni error dolores nisi, odit asperiores iure, deleniti, similique nesciunt in mollitia. Totam!
+                                </p>
+                                <form action="index.php" id="connect-us" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-data">
+                                                <input type="text" name="name" placeholder="Name" class="data-info" data-error="Name Required" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-data">
+                                                <input type="email" name="email" id="email" class="data-info" placeholder="Email" data-error="Email Required" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-data">
+                                                <textarea name="message" rows="6" cols="30" placeholder="Message" class="data-info" data-error="Message Required" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <button type="submit" class="btn-active disabled">
+                                                Send
+                                                <span></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="inner-footer">
+                    <div class="container">
+                        <div class="footer-top col-lg-12 col-xs-12">
+                            <div class="row">
+                                <div class="siverboltz-footer col-lg-4 col-md-4 col-xs-12">
+                                    <!-- footer blocks -->
+                                    <div class="block">
+                                        <div class="block-content">
+                                            <div class="footer-logo">
+                                                <img src="Assets/images/logo/logo1.png" alt="">
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore fugiat totam a veritatis reprehenderit numquam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="block">
+                                        <div class="block-content">
+                                            <div class="footer-nav">
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">What Comsumer Say</a></li>
+                                                <li><a href="#">Meet the Team</a></li>
+                                                <li><a href="#">Terms and Condition</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="block">
+                                        <div class="block-content">
+                                            <div class="img-payment">
+                                                <img src="Assets/images/atm.png" alt="" class="img-fluid">
+                                                <img src="Assets/images/Mastercard-1-pmxzz1sbv52cag8o5vs29jhhymq25sdb9cdmuj7bb4.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- blocks ends -->
+                                </div>
+                                <!-- contact block -->
+                                <div class="siverboltz-footer col-lg-4 col-md-6">
+                                    <div class="block-con">
+                                        <div class="block-title">
+                                            <h4>Contact Us</h4>
+                                        </div>
+                                        <div class="block">
+                                            <div class="block-content">
+
+                                                <div class="contact-box">
+                                                    <div class="contact-box-title">
+                                                        <h5 class="txt-gra"><i class=""></i>Address:</h5>
+                                                    </div>
+                                                    <div class="contact-box-content">
+                                                        <p>
+                                                            Ado Odo Ota, Ijako Ogun <br> State
+                                                            Sango Ota, Nigeria
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="contact-box">
+                                                    <div class="contact-box-title">
+                                                        <h5 class="txt-gra"><i class=""></i>Email:</h5>
+                                                    </div>
+                                                    <div class="contact-box-content">
+                                                        <p>
+                                                            Seidutesleem06@gmail.com <br>
+                                                            Icefrosh72@domain.com
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="contact-box">
+                                                    <div class="contact-box-title">
+                                                        <h5 class="txt-gra"><i class=""></i>Phone Tel:</h5>
+                                                    </div>
+                                                    <div class="contact-box-content">
+                                                        <p>
+                                                            +2348161181020<br>
+                                                            +2348126420349
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="contact-box">
+                                                    <div class="contact-box-title">
+                                                        <h5 class="txt-gra"><i class=""></i>Opening hrs:</h5>
+                                                    </div>
+                                                    <div class="contact-box-content">
+                                                        <p>
+                                                            Mon - Fri<br>
+                                                            9:00Am - 8:00 Pm
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- contact block ends -->
+
+                                <!-- Newletter -->
+                                <div class="siverboltz-footer col-lg-4 col-md-6">
+                                    <div class="block-con">
+                                        <div class="block-title">
+                                            <h4>NewsLetter</h4>
+                                        </div>
+                                        <div class="block-box-content">
+                                            <p>
+                                                Sign Up to our newsletter to get the lastest Updates,lookbooks voucher codes directly to your inboxs
+                                            </p>
+                                        </div>
+                                        <div class="newsletter-form">
+                                            <form action="letter.php" method="post">
+                                                <input type="text" class="data-info" placeholder="Enter Your Email" name="email">
+                                            </form>
+                                           <button class="newletter-btn btn-disabled btn-secondary">
+                                                <span class="newletter-txt">
+                                                    Subscribe
+                                                </span>
+                                           </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script>
+        var TxtRotate = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 1000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+      };
+      
+      TxtRotate.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+      
+        if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+      
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+      
+        var that = this;
+        var delta = 400 - Math.random() * 100;
+      
+        if (this.isDeleting) { delta /= 2; }
+      
+        if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 600;
+        }
+      
+        setTimeout(function() {
+          that.tick();
+        }, delta);
+      };
+      
+      window.onload = function() {
+        var elements = document.getElementsByClassName('txt-rotate');
+        for (var i=0; i<elements.length; i++) {
+          var toRotate = elements[i].getAttribute('data-rotate');
+          var period = elements[i].getAttribute('data-period');
+          if (toRotate) {
+            new TxtRotate(elements[i], JSON.parse(toRotate), period);
+          }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #6699ff}";
+        document.body.appendChild(css);
+      };
+          </script>
+      
+<!-- vendors script -->
+<script src="Assets/libs/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="Assets/js/animate.js"></script>
+<script src="Assets/js/owl.carousel.min.js"></script>
+<script src="/Assets/js/index.js"></script>
 </body>
 </html>
